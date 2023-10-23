@@ -35,6 +35,8 @@ wee_alloc = { version = "0.4.2", optional = true }
 # all the `std::fmt` and `std::panicking` infrastructure, so it's only enabled
 # in debug mode.
 console_error_panic_hook = "0.1.7"
+rand = "0.8.5"
+getrandom = { version = "0.2.10", features = ["js"] }
 
 # The `web-sys` crate allows you to interact with the various browser APIs,
 # like the DOM.
